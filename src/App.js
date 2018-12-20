@@ -15,11 +15,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
         <h1 className="App-title">Welcome to React</h1>
-        <Link to="/">Home</Link> <Link to="/post/">Post</Link>
       </header>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/post/" component={Post} />
+        <Route exact path="/post/:id" component={Post} />
       </Switch>
       </div>
       </BrowserRouter>

@@ -25,5 +25,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "marksy": "^6.1.0",
+    "react-helmet": "^5.2.0"
+  }
 }
